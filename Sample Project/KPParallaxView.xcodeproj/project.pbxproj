@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4408FDFE18EEA9F500434751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408FDFD18EEA9F500434751 /* Foundation.framework */; };
+		4408FE0018EEA9F500434751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408FDFF18EEA9F500434751 /* CoreGraphics.framework */; };
+		4408FE0218EEA9F500434751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408FE0118EEA9F500434751 /* UIKit.framework */; };
+		4408FE0818EEA9F500434751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4408FE0618EEA9F500434751 /* InfoPlist.strings */; };
+		4408FE0A18EEA9F500434751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408FE0918EEA9F500434751 /* main.m */; };
+		4408FE0E18EEA9F500434751 /* KPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408FE0D18EEA9F500434751 /* KPAppDelegate.m */; };
+		4408FE1018EEA9F500434751 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4408FE0F18EEA9F500434751 /* Images.xcassets */; };
+		4408FE1718EEA9F500434751 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408FE1618EEA9F500434751 /* XCTest.framework */; };
+		4408FE1818EEA9F500434751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408FDFD18EEA9F500434751 /* Foundation.framework */; };
+		4408FE1918EEA9F500434751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408FE0118EEA9F500434751 /* UIKit.framework */; };
+		4408FE2D18EEAB1000434751 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408FE2C18EEAB1000434751 /* CoreMotion.framework */; };
+		4408FE3118EEAB2900434751 /* KPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408FE2F18EEAB2900434751 /* KPViewController.m */; };
+		4408FE3218EEAB2900434751 /* KPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4408FE3018EEAB2900434751 /* KPViewController.xib */; };
+		4408FE3818EEAB4100434751 /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408FE3518EEAB4100434751 /* AccelerometerFilter.m */; };
+		4408FE3918EEAB4100434751 /* KPParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408FE3718EEAB4100434751 /* KPParallaxView.m */; };
+		4408FE3F18EEACBE00434751 /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4408FE3E18EEACBE00434751 /* background@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4408FE1A18EEA9F500434751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4408FDF218EEA9F500434751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4408FDF918EEA9F500434751;
+			remoteInfo = KPParallaxView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4408FDFA18EEA9F500434751 /* KPParallaxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPParallaxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4408FDFD18EEA9F500434751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4408FDFF18EEA9F500434751 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4408FE0118EEA9F500434751 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4408FE0518EEA9F500434751 /* KPParallaxView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KPParallaxView-Info.plist"; sourceTree = "<group>"; };
+		4408FE0718EEA9F500434751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4408FE0918EEA9F500434751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4408FE0B18EEA9F500434751 /* KPParallaxView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KPParallaxView-Prefix.pch"; sourceTree = "<group>"; };
+		4408FE0C18EEA9F500434751 /* KPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPAppDelegate.h; sourceTree = "<group>"; };
+		4408FE0D18EEA9F500434751 /* KPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAppDelegate.m; sourceTree = "<group>"; };
+		4408FE0F18EEA9F500434751 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4408FE1518EEA9F500434751 /* KPParallaxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPParallaxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4408FE1618EEA9F500434751 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4408FE2C18EEAB1000434751 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4408FE2E18EEAB2900434751 /* KPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPViewController.h; sourceTree = "<group>"; };
+		4408FE2F18EEAB2900434751 /* KPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPViewController.m; sourceTree = "<group>"; };
+		4408FE3018EEAB2900434751 /* KPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPViewController.xib; sourceTree = "<group>"; };
+		4408FE3418EEAB4100434751 /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerFilter.h; sourceTree = "<group>"; };
+		4408FE3518EEAB4100434751 /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
+		4408FE3618EEAB4100434751 /* KPParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPParallaxView.h; sourceTree = "<group>"; };
+		4408FE3718EEAB4100434751 /* KPParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPParallaxView.m; sourceTree = "<group>"; };
+		4408FE3E18EEACBE00434751 /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4408FDF718EEA9F500434751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4408FE2D18EEAB1000434751 /* CoreMotion.framework in Frameworks */,
+				4408FE0018EEA9F500434751 /* CoreGraphics.framework in Frameworks */,
+				4408FE0218EEA9F500434751 /* UIKit.framework in Frameworks */,
+				4408FDFE18EEA9F500434751 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4408FE1218EEA9F500434751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4408FE1718EEA9F500434751 /* XCTest.framework in Frameworks */,
+				4408FE1918EEA9F500434751 /* UIKit.framework in Frameworks */,
+				4408FE1818EEA9F500434751 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4408FDF118EEA9F500434751 = {
+			isa = PBXGroup;
+			children = (
+				4408FE0318EEA9F500434751 /* KPParallaxView */,
+				4408FDFC18EEA9F500434751 /* Frameworks */,
+				4408FDFB18EEA9F500434751 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4408FDFB18EEA9F500434751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4408FDFA18EEA9F500434751 /* KPParallaxView.app */,
+				4408FE1518EEA9F500434751 /* KPParallaxViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4408FDFC18EEA9F500434751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4408FE2C18EEAB1000434751 /* CoreMotion.framework */,
+				4408FDFD18EEA9F500434751 /* Foundation.framework */,
+				4408FDFF18EEA9F500434751 /* CoreGraphics.framework */,
+				4408FE0118EEA9F500434751 /* UIKit.framework */,
+				4408FE1618EEA9F500434751 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4408FE0318EEA9F500434751 /* KPParallaxView */ = {
+			isa = PBXGroup;
+			children = (
+				4408FE3D18EEACBE00434751 /* Resources */,
+				4408FE3318EEAB4100434751 /* Source */,
+				4408FE0C18EEA9F500434751 /* KPAppDelegate.h */,
+				4408FE0D18EEA9F500434751 /* KPAppDelegate.m */,
+				4408FE2E18EEAB2900434751 /* KPViewController.h */,
+				4408FE2F18EEAB2900434751 /* KPViewController.m */,
+				4408FE3018EEAB2900434751 /* KPViewController.xib */,
+				4408FE0F18EEA9F500434751 /* Images.xcassets */,
+				4408FE0418EEA9F500434751 /* Supporting Files */,
+			);
+			path = KPParallaxView;
+			sourceTree = "<group>";
+		};
+		4408FE0418EEA9F500434751 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4408FE0518EEA9F500434751 /* KPParallaxView-Info.plist */,
+				4408FE0618EEA9F500434751 /* InfoPlist.strings */,
+				4408FE0918EEA9F500434751 /* main.m */,
+				4408FE0B18EEA9F500434751 /* KPParallaxView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4408FE3318EEAB4100434751 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4408FE3418EEAB4100434751 /* AccelerometerFilter.h */,
+				4408FE3518EEAB4100434751 /* AccelerometerFilter.m */,
+				4408FE3618EEAB4100434751 /* KPParallaxView.h */,
+				4408FE3718EEAB4100434751 /* KPParallaxView.m */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		4408FE3D18EEACBE00434751 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4408FE3E18EEACBE00434751 /* background@2x.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4408FDF918EEA9F500434751 /* KPParallaxView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4408FE2618EEA9F500434751 /* Build configuration list for PBXNativeTarget "KPParallaxView" */;
+			buildPhases = (
+				4408FDF618EEA9F500434751 /* Sources */,
+				4408FDF718EEA9F500434751 /* Frameworks */,
+				4408FDF818EEA9F500434751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPParallaxView;
+			productName = KPParallaxView;
+			productReference = 4408FDFA18EEA9F500434751 /* KPParallaxView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4408FE1418EEA9F500434751 /* KPParallaxViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4408FE2918EEA9F500434751 /* Build configuration list for PBXNativeTarget "KPParallaxViewTests" */;
+			buildPhases = (
+				4408FE1118EEA9F500434751 /* Sources */,
+				4408FE1218EEA9F500434751 /* Frameworks */,
+				4408FE1318EEA9F500434751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4408FE1B18EEA9F500434751 /* PBXTargetDependency */,
+			);
+			name = KPParallaxViewTests;
+			productName = KPParallaxViewTests;
+			productReference = 4408FE1518EEA9F500434751 /* KPParallaxViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4408FDF218EEA9F500434751 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					4408FE1418EEA9F500434751 = {
+						TestTargetID = 4408FDF918EEA9F500434751;
+					};
+				};
+			};
+			buildConfigurationList = 4408FDF518EEA9F500434751 /* Build configuration list for PBXProject "KPParallaxView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4408FDF118EEA9F500434751;
+			productRefGroup = 4408FDFB18EEA9F500434751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4408FDF918EEA9F500434751 /* KPParallaxView */,
+				4408FE1418EEA9F500434751 /* KPParallaxViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4408FDF818EEA9F500434751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4408FE3218EEAB2900434751 /* KPViewController.xib in Resources */,
+				4408FE0818EEA9F500434751 /* InfoPlist.strings in Resources */,
+				4408FE3F18EEACBE00434751 /* background@2x.jpg in Resources */,
+				4408FE1018EEA9F500434751 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4408FE1318EEA9F500434751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4408FDF618EEA9F500434751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4408FE3118EEAB2900434751 /* KPViewController.m in Sources */,
+				4408FE3818EEAB4100434751 /* AccelerometerFilter.m in Sources */,
+				4408FE0E18EEA9F500434751 /* KPAppDelegate.m in Sources */,
+				4408FE3918EEAB4100434751 /* KPParallaxView.m in Sources */,
+				4408FE0A18EEA9F500434751 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4408FE1118EEA9F500434751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4408FE1B18EEA9F500434751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4408FDF918EEA9F500434751 /* KPParallaxView */;
+			targetProxy = 4408FE1A18EEA9F500434751 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4408FE0618EEA9F500434751 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4408FE0718EEA9F500434751 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4408FE2418EEA9F500434751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4408FE2518EEA9F500434751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4408FE2718EEA9F500434751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPParallaxView/KPParallaxView-Prefix.pch";
+				INFOPLIST_FILE = "KPParallaxView/KPParallaxView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4408FE2818EEA9F500434751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPParallaxView/KPParallaxView-Prefix.pch";
+				INFOPLIST_FILE = "KPParallaxView/KPParallaxView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4408FE2A18EEA9F500434751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KPParallaxView.app/KPParallaxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPParallaxView/KPParallaxView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KPParallaxViewTests/KPParallaxViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4408FE2B18EEA9F500434751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KPParallaxView.app/KPParallaxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPParallaxView/KPParallaxView-Prefix.pch";
+				INFOPLIST_FILE = "KPParallaxViewTests/KPParallaxViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4408FDF518EEA9F500434751 /* Build configuration list for PBXProject "KPParallaxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4408FE2418EEA9F500434751 /* Debug */,
+				4408FE2518EEA9F500434751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4408FE2618EEA9F500434751 /* Build configuration list for PBXNativeTarget "KPParallaxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4408FE2718EEA9F500434751 /* Debug */,
+				4408FE2818EEA9F500434751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4408FE2918EEA9F500434751 /* Build configuration list for PBXNativeTarget "KPParallaxViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4408FE2A18EEA9F500434751 /* Debug */,
+				4408FE2B18EEA9F500434751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4408FDF218EEA9F500434751 /* Project object */;
+}
